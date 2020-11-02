@@ -1,26 +1,3 @@
-<!-- Copy and paste the converted output. -->
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 8.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-<p>
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image1.png "image_tooltip")
 
 
@@ -60,8 +37,6 @@ We believe that the impact on the Bitcoin network can be minimized if light clie
 
 <h1>
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/image2.png "image_tooltip")
 </h1>
@@ -73,8 +48,6 @@ Light clients must support many of the same network protocol layers as Bitcoin f
 
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image3.png "image_tooltip")
@@ -88,25 +61,13 @@ Light clients made for mobile phones should allow users to configure how much mo
 
 <h2>Peers</h2>
 
-
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image4.png "image_tooltip")
-
 
 Both full nodes and light clients rely on a robust [peer discovery](https://developer.bitcoin.org/devguide/p2p_network.html?highlight=block%20headers#peer-discovery) process to ensure they connect to a diverse set of honest peer nodes. Bitcoin nodes initially connect to preset seed nodes but must always discover new peers in order to stay connected to the “honest” Bitcoin network. The Bitcoin Core full node software has developed robust heuristics to mitigate [eclipse attacks](https://inthemesh.com/archive/bitcoin-eclipse-attacks/) from malicious peers and disconnect from misbehaving nodes. Because peer addresses are only 30 bytes each, light clients can use the same heuristics as full nodes to frequently query multiple peers for new addresses.
 
 The best way to prevent becoming isolated from the honest Bitcoin network is to maintain a large, persistent and diverse set of peer connections. To help preserve battery life, light client software should be careful to not wake up a mobile phone too often to gossip about peer addresses or perform other tasks. Light clients should synchronize with their peers at the same fixed time interval to minimize both battery use and peer disconnections. 
 
 <h2>Block Headers</h2>
-
-
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image5.png "image_tooltip")
@@ -130,7 +91,6 @@ A Light client requires at a minimum the block filters for blocks that might con
 
 
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image6.png "image_tooltip")
@@ -143,7 +103,6 @@ To reduce bandwidth consumption, full nodes can be configured to use [blocks-onl
 
 
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image7.png "image_tooltip")
@@ -158,7 +117,6 @@ Light clients that use BIP-157 block filters do not independently confirm that a
 
 
 
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image8.png "image_tooltip")
@@ -404,6 +362,8 @@ The table below summarizes how much metered data would be used by a blocks-only 
 </table>
 
 
+<br><br>
+
 <h1>Lightning</h1>
 
 
@@ -437,6 +397,8 @@ Even users with expensive or slow mobile data should be able to confirm Bitcoin 
 
 “In regards to your estimates; If it can be implemented that would be relevant and the economics of it could drive more bitcoin users to self custody,” says developer [Emmanuel Ndangurura](https://twitter.com/endangurura) from Nairobi, Kenya.  Emmanuel notes that a data plan of 175 MB that does not expire, or a weekly bundle of 500 MB, can be purchased in Nairobi for only $0.5. Using the data estimates above, with only 175 MB a user could download a 50 MB app, synchronize block headers and still have data to send and receive payments in a private and self custodial way using block filters.
 
+
+
 <h2>Lightning</h2>
 
 
@@ -445,14 +407,14 @@ A lightning node must perform the onchain steps outlined above to open channels,
 
 
 6. Monitor for improper channel closes using one of the following techniques:
-    1. Subscribe to and submit appointments to [watchtowers](https://bitcoinops.org/en/topics/watchtowers/) for each channel update
-    2. Download block filters for the entire period Lightning channels are open.
+     1. Subscribe to and submit appointments to [watchtowers](https://bitcoinops.org/en/topics/watchtowers/) for each channel update
+     2. Download block filters for the entire period Lightning channels are open.
 7. Receive network topology gossip for source routing.
 8. Negotiate the Lightning protocol directly with channel partners.
 
-Unlike for onchain transactions, the Bitcoin network does not need to be accessed for every Lightning payment. Instead, light clients must access Bitcoin peers within a configurable window of time (eg. a week) to check their channel counterparty has not tried to fraudulently force close the channel using an older channel state. Ideally channel state monitoring could be performed when an unmetered connection is available. For situations where only expensive metered connectivity is available, using Watchtowers (6i) is superior for monitoring channel state. However, clients that do not independently monitor the blockchain (6ii) risk losing funds if their watchtowers do not react to channel breeches.
+Unlike for onchain transactions, the Bitcoin network does not need to be accessed for every Lightning payment. Instead, light clients must access Bitcoin peers within a configurable window of time (eg. a week) to check their channel counterparty has not tried to fraudulently force close the channel using an older channel state. Ideally channel state monitoring could be performed when an unmetered connection is available. For situations where only expensive metered connectivity is available, using Watchtowers (6.1) is superior for monitoring channel state. However, clients that do not independently monitor the blockchain (6.2) risk losing funds if their watchtowers do not react to channel breeches.
 
-Watchtowers (6a) would require something on the order of 500 B per Lightning payment made by or routed through a peer to be sent to a watchtower via an Internet gateway.  This is much less than monitoring for breech transactions directly (6b) which requires downloading approximately 15 MB of block filter data per week. A channel can also be cooperatively closed or [re-anchored/spliced](https://lists.linuxfoundation.org/pipermail/lightning-dev/2018-October/001434.html) onchain before it’s monitoring window expires if that would be less expensive from a bandwidth or watchtower subscription cost standpoint.
+Watchtowers (6.1) would require something on the order of 500 B per Lightning payment made by or routed through a peer to be sent to a watchtower via an Internet gateway.  This is much less than monitoring for breech transactions directly (6.2) which requires downloading approximately 15 MB of block filter data per week. A channel can also be cooperatively closed or [re-anchored/spliced](https://lists.linuxfoundation.org/pipermail/lightning-dev/2018-October/001434.html) onchain before it’s monitoring window expires if that would be less expensive from a bandwidth or watchtower subscription cost standpoint.
 
 Instead of gossiping about network topology (7), light clients should use private Lightning nodes and not route payments for others where bandwidth is expensive. Instead they should use trampoline routing or similar incremental routing techniques. This would decrease bandwidth usage at the expense of routing privacy. 
 
@@ -465,4 +427,4 @@ A mobile Lightning node would need 1 MB of bandwidth for each channel they creat
 
 Mobile light clients can substantially increase the security of Bitcoin users that currently rely on custodial Bitcoin wallets. New block filter based light clients will allow users with as little as 2 MB of bandwidth per week to confirm onchain transactions. By using watchtowers, mobile Lightning nodes can perform many low-fee transactions without requiring any more metered bandwidth than current onchain transactions. Or Lightning nodes can use block filters to independently monitor the blockchain using less than 20 MB per week. Mobile light clients can also opportunistically take advantage of unmetered internet access to operate as pruned blocks-only full nodes in “mobile-only” parts of the world. We believe a focus on low bandwidth Bitcoin light clients will help bring the advantages of self custody to more of the world and to eventually lead to greater geographic diversity of Bitcoin full nodes.
 
-Special thanks to [Karim Helmy](https://twitter.com/karimhelpme) and [Will Clark](https://twitter.com/willcl_ark) for useful discussions and for reading drafts of this article; thanks also to [Alejandro Machado](https://twitter.com/alegw) for his encouragement and review.
+Special thanks to [Karim Helmy](https://twitter.com/karimhelpme) and [Will Clark](https://twitter.com/willcl_ark) for useful discussions and for reading drafts of this article; thanks also to [Alejandro Machado](https://twitter.com/alegw) for his encouragement while I pursued this project.
