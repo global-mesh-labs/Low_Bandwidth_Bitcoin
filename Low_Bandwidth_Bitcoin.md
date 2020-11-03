@@ -128,7 +128,7 @@ While there are many fewer public Electrum servers than Bitcoin full nodes, curr
 
 An Electrum based light client would require even less bandwidth than a block filter based light client because it does not need to download block filter headers, block filters or stripped full blocks to confirm transactions. Instead Electrum clients only need to request a Merkle proof of approximately 400 B to confirm each transaction.
 
-<h1>Summary</h1>
+<h1>Full nodes vs. Light clients Summary</h1>
 
 
 The table below summarizes how much metered data would be used by a blocks-only full node, a block filter based light client and an Electrum based light client. As you can see in the summary, either kind of light client uses dramatically less bandwidth per week, than even a minimal blocks-only full node.   
